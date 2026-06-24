@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Adbhut Patel</h1>
+        <p class="tag">Designer • Developer • Problem Solver</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <h2>Hi — I'm Adbhut Patel</h2>
+        <p>I'm a web developer passionate about creating beautiful and functional websites. Explore my portfolio to see my work and skills.</p>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About</h2>
+      <div class="about-grid">
+        <img src="adbhut.jpg" alt="Your photo" class="avatar">
+        <div class="bio">
+            <p>Hello! I'm Adbhut Patel, a passionate web developer with a knack for creating user-friendly and visually appealing websites. I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+            <p>With a strong foundation in HTML, CSS, JavaScript, and Django, I strive to build websites that not only look great but also provide a seamless user experience. I'm always eager to learn new technologies and improve my skills.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="container skills">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>HTML &amp; CSS</li>
+        <li>JavaScript</li>
+        <li>Django</li>
+        <li>MYSQL</li>
+        <li>Bootstrap</li>
+        <li>Responsive Design</li>
+        <li>Basic accessibility</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project">
+          <img src="netfilx.png" alt="Project 1 screenshot">
+          <h3>Netflix</h3>
+            <p> Developed a Netflix-inspired website using HTML, CSS, and JavaScript. Focused on creating a responsive layout and interactive elements.</p>
+        </article>
+        <article class="project">
+          <img src="nvidia.png" alt="Project 2 screenshot">
+          <h3>Nvidia</h3>
+            <p> Developed a website inspired by Nvidia's design using HTML, CSS, and JavaScript. Focused on creating a visually appealing layout and interactive elements.</p>
+        </article>
+        <article class="project">
+          <img src="spoifty.png" alt="Project 3 screenshot">
+          <h3>Spotify</h3>
+            <p> Created a Spotify-inspired website using HTML, CSS, and JavaScript. Focused on user interface design and interactive elements.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="resume" class="container resume">
+      <h2>Resume</h2>
+      <p>Download my resume:</p>
+      <p><a href="resume.pdf" download>Download Resume</a></p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:pateladbhut3@gamil.com">pateladbhut3@gmail.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+91 7617853811</a></p>
+      <p>Or find me on <a href="https://github.com/adbhutp0811">GitHub</a> and <a href="https://www.linkedin.com/in/adbhut-patel-4323012abd">LinkedIn</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Adbhut Patel. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
