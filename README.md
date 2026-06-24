@@ -74,5 +74,5 @@ Or use a live-server extension in VS Code for hot-reloading.
 
 **Adbhut Patel**
 
-- GitHub: [@adbhutp0811](https://github.com/adbhutp0811)
+- GitHub: [@adbhutp0811](https://github.com/adbhutp0811/codesoft.git))
 - LinkedIn: [Connect on LinkedIn](https://www.linkedin.com/in/adbhut-patel-7a344428b/)
